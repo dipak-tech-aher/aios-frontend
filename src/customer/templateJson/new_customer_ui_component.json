@@ -1,0 +1,112 @@
+{
+	"customer": {
+		"customerType": "",
+		"title": "",
+		"surname": "",
+		"forename": "",
+		"companyName": "",
+		"category": "",
+		"class": "",
+		"email": "",
+		"contactType": "",
+		"contactNbr": "",
+		"address": [{
+			"flat-house-unit-no": "",
+			"block": "",
+			"building-name-others": "",
+			"simpang": "",
+			"jalan": "",
+			"district": "",
+			"mukim": "",
+			"kampong": "",
+			"city-town": "",
+			"postcode": "",
+			"country": ""
+		}],
+		"account": [{
+			"accountType": "",
+			"title": "",
+			"surname": "",
+			"forename": "",
+			"gender": "",
+			"dob": "",
+			"companyName": "",
+			"registeredDate": "",
+			"idType": "",
+			"idNbr": "",
+			"registeredNbr": "",
+			"email": "",
+			"contactType": "",
+			"contactNbr": "",
+			"priority": "",
+			"class": "",
+			"category": "",
+			"contactTitle": "",
+			"contactSurname": "",
+			"contactForename": "",
+			"billingAddress": [{
+				"sameAsCustomerAddress": true,
+				"flat-house-unit-no": "",
+				"block": "",
+				"building-name-others": "",
+				"simpang": "",
+				"jalan": "",
+				"district": "",
+				"mukim": "",
+				"kampong": "",
+				"city-town": "",
+				"postcode": "",
+				"country": ""
+			}],
+			"billOptions": {
+				"billLanguage": "",
+				"billDeliveryMethod": "",
+				"noOfCopies": ""
+			},
+			"security": {
+				"securityQuestion": "",
+				"securityAnswer": ""
+			},
+			"service": [{
+				"catalog": "",
+				"product": "",
+				"serviceAddress": [{
+					"sameAsBillingAddress": "",
+					"flat-house-unit-no": "",
+					"block": "",
+					"building-name-others": "",
+					"simpang": "",
+					"jalan": "",
+					"district": "",
+					"mukim": "",
+					"kampong": "",
+					"city-town": "",
+					"postcode": "",
+					"country": ""
+				}],
+				"fixed": {
+					"serviceNbrSelection": "",
+					"serviceNbrGroup": "",
+					"exchangeCode": "",
+					"accessNbr": ""
+				},
+				"mobile": {
+					"serviceNbrSelection": "",
+					"dealership": "",
+					"nbrGroup": "",
+					"accessNbr": "",
+					"gsm": {
+						"iccid": "",
+						"imsi": "",
+						"creditProfile": ""
+					}
+				},
+				"deposit": {
+					"charge": "",
+					"paymentMethod": "",
+					"excludeReason": ""
+				}
+			}]
+		}]
+	}
+}

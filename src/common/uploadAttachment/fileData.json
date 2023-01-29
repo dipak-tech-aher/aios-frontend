@@ -1,0 +1,41 @@
+[
+    {
+        "status": "TEMP",
+        "attachmentId": 22,
+        "fileName": "loan2.txt",
+        "fileType": "text/plain",
+        "entityType": "customer",
+        "content": "data:text/plain;base64,SGkgZG93bmxvYWRlZCB0aGUgZG9jdW1lbnQ=",
+        "entityId": "479f827e-5826-44dd-a72a-889a5c987154",
+        "createdBy": 12,
+        "updatedBy": 12,
+        "updatedAt": "2021-05-06T06:17:25.936Z",
+        "createdAt": "2021-05-06T06:17:25.936Z"
+    },
+    {
+        "status": "TEMP",
+        "attachmentId": 21,
+        "fileName": "loan3.txt",
+        "fileType": "text/plain",
+        "entityType": "customer",
+        "content": "data:text/plain;base64,SGkgZG93bmxvYWRlZCB0aGUgZG9jdW1lbnQ=",
+        "entityId": "37ecc6b2-aec9-4db1-9dd3-0a12b5f38031",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "updatedAt": "2021-05-06T04:23:07.092Z",
+        "createdAt": "2021-05-06T04:23:07.092Z"
+    },
+    {
+        "status": "TEMP",
+        "attachmentId": 19,
+        "fileName": "loan1.txt",
+        "fileType": "text/plain",
+        "entityType": "customer",
+        "content": "data:text/plain;base64,SGkgZG93bmxvYWRlZCB0aGUgZG9jdW1lbnQ=",
+        "entityId": "dae9f744-b014-49a7-91a6-8ac56580d21b",
+        "createdBy": 1,
+        "updatedBy": 1,
+        "updatedAt": "2021-05-06T04:11:47.681Z",
+        "createdAt": "2021-05-06T04:11:47.681Z"
+    }
+]

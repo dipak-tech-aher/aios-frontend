@@ -1,0 +1,202 @@
+{
+    "viewer": {
+        "statusColor": {
+            "doneFillColor": "rgb(138, 255, 128)",
+            "doneStrokeColor": "rgb(0,255,0)",
+            "userWaitFillColor": "rgb(255, 251, 0)",
+            "userWaitStrokeColor": "rgb(255, 255, 0)",
+            "sysWaitFillColor": "rgb(168, 172, 247)",
+            "sysWaitStrokeColor": "rgb(0, 17, 255)",           
+            "errorFillColor": "rgb(200, 230, 201)",
+            "erroStrokeColor": "rgb(67, 160, 71)"            
+        }
+    },
+    "database": {
+        "queryTypes": [
+            {
+                "code": "SELECT",
+                "display": "Query",
+                "waitSupported": true
+            },
+            {
+                "code": "INSERT",
+                "display": "Insert",
+                "waitSupported": false
+            },
+            {
+                "code": "UPDATE",
+                "display": "Update",
+                "waitSupported": false
+            }
+        ],
+        "tables": [
+            {
+                "tableName": "interaction",
+                "displayName": "Interaction",
+                "columns": [
+                    {
+                        "columnName": "intxn_id",
+                        "displayName": "Interaction Id",
+                        "allowedOps": ["SELECT", "UPDATE"],
+                        "dataType": "NUMBER"
+                    },
+                    {
+                        "columnName": "status",
+                        "displayName": "Status",
+                        "allowedOps": ["SELECT", "UPDATE", "INSERT"],
+                        "dataType": "TExT"
+                    }
+                ]
+            },
+            {
+                "tableName": "interaction_task",
+                "displayName": "Interaction Task",
+                "columns": [
+                    {
+                        "columnName": "intxn_task_id",
+                        "displayName": "Interaction Task Id",
+                        "allowedOps": ["SELECT"],
+                        "dataType": "NUMBER"
+                    },
+                    {
+                        "columnName": "intxn_id",
+                        "displayName": "Interaction Id",
+                        "allowedOps": ["SELECT", "INSERT"],
+                        "dataType": "NUMBER"
+                    },
+                    {
+                        "columnName": "task_id",
+                        "displayName": "Task Name",
+                        "allowedOps": ["SELECT", "UPDATE", "INSERT"],
+                        "dataType": "TExT"
+                    },
+                    {
+                        "columnName": "status",
+                        "displayName": "Status",
+                        "allowedOps": ["SELECT", "UPDATE", "INSERT"],
+                        "dataType": "TExT"
+                    }
+                ]
+            },
+            {
+                "tableName": "customer",
+                "displayName": "Customer",
+                "columns": [
+                    {
+                        "columnName": "customer_id",
+                        "displayName": "Customer Id",
+                        "dataType": "NUMBER"
+                    },
+                    {
+                        "columnName": "status",
+                        "displayName": "Status",
+                        "dataType": "TExT"
+                    }
+                ]
+            },
+            {
+                "tableName": "account",
+                "displayName": "Account",
+                "columns": [
+                    {
+                        "columnName": "account_id",
+                        "displayName": "Account Id",
+                        "dataType": "NUMBER"
+                    },
+                    {
+                        "columnName": "status",
+                        "displayName": "Status",
+                        "dataType": "TExT"
+                    }
+                ]
+            }
+        ],
+        "joins": [
+            {
+             
+            }
+        ],
+        "operators": [
+            {
+                "label": "=",
+                "value": "-"
+            },
+            {
+                "label": ">",
+                "value": ">"
+            },
+            {
+                "label": "<",
+                "value": "<"
+            },
+            {
+                "label": ">=",
+                "value": ">="
+            },
+            {
+                "label": "<=",
+                "value": "<="
+            },
+            {
+                "label": "!=",
+                "value": "!="
+            },
+            {
+                "label": "In",
+                "value": "IN"
+            }
+        ]
+    },
+    "api": {
+        "protocols": [
+            {
+                "label": "http",
+                "value": "http"
+            },
+            {
+                "label": "https",
+                "value": "https"
+            }
+        ],
+        "methods": [
+            {
+                "label": "GET",
+                "value": "GET",
+                "waitSupported": true
+            },
+            {
+                "label": "POST",
+                "value": "POST",
+                "waitSupported": true
+            },
+            {
+                "label": "PUT",
+                "value": "PUT",
+                "waitSupported": true
+            }
+        ],
+        "endpoints": [
+            {
+                "label": "OCS",
+                "value": "api.bct.com/ocs/api"
+            },
+            {
+                "label": "OMS",
+                "value": "api.bct.com/oms/api"
+            },
+            {
+                "label": "REQRES",
+                "value": "reqres.in/api/users"
+            },
+            {
+                "label": "BCAE-TEST",
+                "value": "bcae-test.comquest-brunei.com:9443/bcae/api"
+            },
+            {
+                "label": "LOCALHOST",
+                "value": "localhost:4000/api"
+            }
+        ]
+    }
+}
+

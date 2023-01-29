@@ -1,0 +1,44 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": [
+        {
+            "item": [
+                {
+                    "title": "Landline",
+                    "total": 20,
+                    "icon": "fa-phone-alt"
+                },
+                {
+                    "title": "Mobile",
+                    "total": 43,
+                    "icon": "fa-mobile-alt"
+                },
+                {
+                    "title": "Broadband",
+                    "total": 54,
+                    "icon": "fa-wifi"
+                }
+            ]
+        },
+        {
+            "item": [
+                {
+                    "title": "Service1",
+                    "total": 99,
+                    "icon": "fa-phone-alt"
+                },
+                {
+                    "title": "Service2",
+                    "total": 67,
+                    "icon": "fa-mobile-alt"
+                },
+                {
+                    "title": "Service3",
+                    "total": 37,
+                    "icon": "fa-wifi"
+                }
+            ]
+        }
+    ]
+}

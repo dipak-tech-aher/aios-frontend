@@ -1,0 +1,78 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": {
+        "title": [
+            "To Do"
+        ],
+        "tabContent": [
+            {
+                "slaDetails": [
+                    {
+                        "title": "SLA",
+                        "slaData": [
+                            {
+                                "total": 10,
+                                "color": "red"
+                            },
+                            {
+                                "total": 9,
+                                "color": "orange"
+                            },
+                            {
+                                "total": 4,
+                                "color": "gray"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Interaction Type",
+                        "slaData": [
+                            {
+                                "total": 1,
+                                "color": "red"
+                            },
+                            {
+                                "total": 9,
+                                "color": "red"
+                            },
+                            {
+                                "total": 3,
+                                "color": "red"
+                            }
+                        ]
+                    }
+                ],
+                "data": [
+                    {
+                        "id": 8874,
+                        "ref": "Id 8874",
+                        "duration": "6hrs Overdue",
+                        "assignedFrom": "CEM",
+                        "priority": "low",
+                        "serviceType": "Mobile Billing",
+                        "serviceStatus": "Complaint"
+                    },
+                    {
+                        "id": 8875,
+                        "ref": "Id 8875",
+                        "duration": "6hrs Overdue",
+                        "assignedFrom": "CEM",
+                        "priority": "low",
+                        "serviceType": "Mobile Billing",
+                        "serviceStatus": "Inquiry"
+                    },
+                    {
+                        "id": 8875,
+                        "ref": "Id 8875",
+                        "duration": "6hrs Overdue",
+                        "assignedFrom": "CEM",
+                        "priority": "low",
+                        "serviceType": "Mobile Billing",
+                        "serviceStatus": "Service Request"
+                    }
+                ]
+            }
+        ]
+    }
+}

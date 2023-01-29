@@ -1,0 +1,18 @@
+{
+    "startEvent": {
+        "lookups": [
+            {
+                "codeType": "INTXN_TYPE",
+                "codeTypeDesc": "Interaction Type"
+            },
+            {
+                "codeType": "INTXN_CAT_TYPE",
+                "codeTypeDesc": "Interaction Category Type"
+            },
+            {
+                "codeType": "PROBLEM_TYPE",
+                "codeTypeDesc": "Problem Type"
+            }
+        ]
+    }
+}

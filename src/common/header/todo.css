@@ -1,0 +1,15 @@
+.todo {
+    cursor: pointer;
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 90;
+    right: 0;
+    padding: 1px 12px;
+}

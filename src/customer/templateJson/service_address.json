@@ -1,0 +1,16 @@
+{
+    "serviceAddress": {
+        "sameAsBillingAddress": "",
+        "flat-house-unit-no": "",
+        "block": "",
+        "building-name-others": "",
+        "simpang": "",
+        "jalan": "",
+        "district": "",
+        "mukim": "",
+        "kampong": "",
+        "city-town": "",
+        "postcode": "",
+        "country": ""
+    }
+}

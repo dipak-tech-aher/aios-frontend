@@ -1,0 +1,89 @@
+{
+    "name": "aios-web",
+    "homepage": "/aios",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@ant-design/icons": "^4.6.2",
+        "@reactchartjs/react-chart.js": "^1.0.0-rc.3",
+        "ag-grid-community": "^25.1.0",
+        "ag-grid-react": "^25.1.0",
+        "antd": "^4.16.5",
+        "async-limiter": "^2.0.0",
+        "axios": "^0.21.1",
+        "bootstrap": "^4.6.0",
+        "bootstrap-daterangepicker": "^3.1.0",
+        "bpmn-js": "^8.7.1",
+        "chart.js": "2.5.0",
+        "clone": "^2.1.2",
+        "date-fns": "^2.22.1",
+        "dayjs": "^1.10.6",
+        "demos-react-captcha": "^1.0.11",
+        "echarts": "^5.3.2",
+        "echarts-for-react": "^3.0.2",
+        "file-saver": "^2.0.5",
+        "html-react-parser": "^3.0.4",
+        "i18next": "^19.9.2",
+        "i18next-browser-languagedetector": "^6.0.1",
+        "i18next-xhr-backend": "^3.2.2",
+        "lodash": "^4.17.21",
+        "moment-timezone": "^0.5.40",
+        "popper.js": "^1.16.1",
+        "react": "^17.0.1",
+        "react-bootstrap": "^1.5.2",
+        "react-bootstrap-daterangepicker": "^7.0.0",
+        "react-confirm-alert": "^2.7.0",
+        "react-dom": "^17.0.1",
+        "react-dropzone-uploader": "^2.11.0",
+        "react-hook-form": "^7.2.3",
+        "react-i18next": "^11.8.9",
+        "react-modal": "^3.13.1",
+        "react-number-format": "^4.5.5",
+        "react-paginate": "^7.1.2",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.3",
+        "react-scroll": "^1.8.2",
+        "react-select": "^4.3.0",
+        "react-simple-tree-menu": "^1.1.18",
+        "react-slick": "^0.28.1",
+        "react-switch": "^6.0.0",
+        "react-table": "^7.6.3",
+        "react-tabs": "^3.2.1",
+        "react-to-print": "^2.12.4",
+        "react-toastify": "^7.0.3",
+        "react-tooltip": "^4.2.21",
+        "react-url-image-downloader": "^1.0.2",
+        "reactjs-popup": "^2.0.5",
+        "socket.io-client": "^4.2.0",
+        "sweetalert2": "^11.6.14",
+        "uuid": "^8.3.2",
+        "web-vitals": "^1.0.1",
+        "xlsx": "^0.17.0",
+        "xml2js": "^0.4.23",
+        "yup": "^0.28.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

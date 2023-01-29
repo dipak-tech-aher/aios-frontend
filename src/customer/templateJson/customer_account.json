@@ -1,0 +1,25 @@
+{
+    "account": {
+        "accountType": "",
+        "title": "saving",
+        "surname": "",
+        "forename": "",
+        "gender": "",
+        "dob": "",
+        "companyName": "",
+        "registeredDate": "",
+        "idType": "",
+        "idNbr": "",
+        "registeredNbr": "",
+        "email": "",
+        "contactType": "",
+        "contactNbr": "",
+        "priority": "",
+        "class": "",
+        "category": "",
+        "contactTitle": "",
+        "contactSurname": "",
+        "contactForename": "",
+        "sameAsCustomerAddress": true
+    }
+}

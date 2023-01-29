@@ -1,0 +1,73 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "show": "true",
+    "properties": {
+      "entity": {
+        "type": "string"
+      },
+      "entityType": {
+        "type": "string"
+      },
+      "activity1": {
+        "type": "object",
+        "show": "true",
+        "properties": {
+          "task1": {
+            "type": "object",
+            "show": "true",
+            "properties": {
+              "interaction": {
+                "type": "object",
+                "show": "true",
+                "properties": {
+                  "intxnId": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "intxnId",
+                  "status"
+                ]
+              },
+              "interactionTask": {
+                "type": "object",
+                "show": "true",
+                "properties": {
+                  "taskId": {
+                    "type": "string"
+                  },
+                  "intxnId": {
+                    "type": "integer"
+                  },
+                  "status": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "taskId",
+                  "intxnId",
+                  "status"
+                ]
+              }
+            },
+            "required": [
+              "interaction",
+              "interactionTask"
+            ]
+          }
+        },
+        "required": [
+          "task1"
+        ]
+      }
+    },
+    "required": [
+      "entity",
+      "entityType",
+      "activity1"
+    ]
+  }

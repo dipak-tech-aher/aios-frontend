@@ -1,0 +1,10 @@
+.tabs
+{
+    color : black;
+    font-size: 15px;
+}
+.tabs:hover
+{
+    color : orange;
+}
+

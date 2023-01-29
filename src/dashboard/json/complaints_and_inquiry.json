@@ -1,0 +1,45 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": {
+        "title": "Complaints and Inquiry",
+        "icon": "fe-bar-chart-2",
+        "count": "",
+        "slaData": [
+            {
+                "title": "Complaints",
+                "data": [
+                    {
+                        "title": "Open",
+                        "total": 42
+                    },
+                    {
+                        "title": "Assigned",
+                        "total": 42
+                    },
+                    {
+                        "title": "Closed",
+                        "total": 42
+                    }
+                ]
+            },
+            {
+                "title": "Inquiry",
+                "data": [
+                    {
+                        "title": "Open",
+                        "total": 21
+                    },
+                    {
+                        "title": "Assigned",
+                        "total": 44
+                    },
+                    {
+                        "title": "Closed",
+                        "total": 98
+                    }
+                ]
+            }
+        ]
+    }
+}

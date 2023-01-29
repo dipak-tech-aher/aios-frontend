@@ -1,0 +1,9 @@
+{
+    "deposit": {
+        "deposite": "",
+        "charge": "",
+        "paymentMethod": "",
+        "portIn": true,
+        "excludeReason": ""
+    }
+}

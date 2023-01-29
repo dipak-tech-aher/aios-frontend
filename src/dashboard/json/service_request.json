@@ -1,0 +1,28 @@
+{
+    "status": 200,
+    "message": "success",
+    "data": {
+        "title": "Service Request",
+        "icon": "fe-layers",
+        "count": "1452",
+        "slaData": [
+            {
+                "title": "",
+                "data": [
+                    {
+                        "title": "Open",
+                        "total": 42
+                    },
+                    {
+                        "title": "Assigned",
+                        "total": 42
+                    },
+                    {
+                        "title": "Closed",
+                        "total": 42
+                    }
+                ]
+            }
+        ]
+    }
+}
